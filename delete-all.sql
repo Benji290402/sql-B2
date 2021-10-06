@@ -1,0 +1,1 @@
+DELETE FROM 'artists' WHERE ArtistId NOT NULL
