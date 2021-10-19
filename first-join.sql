@@ -1,4 +1,4 @@
 SELECT Title AS AlbumName, Name AS ArtistName
-FROM albums
-INSER JOIN artists ON AlbumId = artists.ArtistId
+FROM artists
+INNER JOIN albums ON artists.ArtistId = albums.ArtistId
 LIMIT 100
